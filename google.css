@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+nav .left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+} 
+nav .right{
+    width:100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+nav a{
+    margin: 0 15px;
+}
+nav #apps{
+    width: 2vh;
+    height: 2vh;
+}
+nav .right div{
+    width: 4.5vh;
+    height: 4.5vh;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav #account{
+    width: 4vh;
+    height: 4vh;
+    border: 0.5vh solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+nav .right div:hover{
+    background-color: #ccc;
+}
+nav #account:hover{
+    
+    border-color:#ccc;
+}
+.searchpanel{
+    white-space: pre;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+}
+.searchbar{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 650px;
+    height: 4.5vh;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+input{
+    border:none;
+    width: 90%;
+    font-size: 2vh;
+}
+input:focus {
+    outline: none;
+  }
+.searchpanel .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px
+
+}
+.searchpanel .btn button{
+    font-size: 1.5vh;
+    border:none;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    margin: 20px 10px;
+}
+.searchpanel .btn button:hover{
+    border:1px solid #ccc;
+}
+
+.searchpanel .btn button:active{
+    border:1px solid #00f;
+}
+div div img{
+    width: 2vh;
+    height: 2vh;
+    margin: 1.5vh;
+    padding:0.5vh
+}
